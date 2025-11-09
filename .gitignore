@@ -1,0 +1,32 @@
+# Ignore NetBeans build and private files
+nbproject/private/
+build/
+dist/
+nbbuild/
+nblibraries.properties
+
+# Ignore compiled class files
+*.class
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency or cache folders
+target/
+out/
+
+# Ignore OneDrive temporary files
+~$*
+*.lnk
