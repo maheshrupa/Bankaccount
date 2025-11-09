@@ -19,4 +19,5 @@ public interface BankAccountDAO {
     public boolean deleteAccountHolder(int accountNumber);
     public BankAccountDTO updateAccountHolder(int accountNumber);   
     public boolean updatedAccountHolderDetails(BankAccountDTO bankAccountDTO);
+    
 }
